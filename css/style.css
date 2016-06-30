@@ -49,8 +49,7 @@ button {
     color: steelblue!important;
 }
 
-button p {
-    font-size: 20px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+.text-bouton {
+    font-size: 15px;
+    margin-top: 10px;
 }

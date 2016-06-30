@@ -6,19 +6,6 @@ function clicker() {
     document.getElementById("clicker").innerHTML = score;
 }
 
-
-/*function incrementer() {
-    if (score >= 20 * multi * multi) {
-        multi = multi * 2;
-        document.getElementById("multiplicateur").innerHTML = "Multiplicateur x" + multi;
-        document.getElementById("prix").innerHTML = "Prix du multiplicateur : " +
-            20 * multi * multi;
-
-    } else {
-        alert("Vous être trop pauvre !")
-    }
-}*/
-
 /*function incrementer() {
     if (score >= 5) {
         multi = multi * 2;
@@ -30,11 +17,25 @@ function clicker() {
     }
 }*/
 
-function incrementer() {
+/*function incrementer() {
     if (score >= 5) {
         multi = multi * 2;
         score = score - 5;
         document.getElementById("multiplicateur").innerHTML = "Multiplicateur x" + multi;
+    }
+    
+    else {
+        alert("Vous êtes trop pauvre !");
+    }
+}*/
+
+function incrementer() {
+    if (score >= 5 * multi) {
+        multi = multi * 2;
+        score = score - 5;
+        document.getElementById("multiplicateur").innerHTML = "Multiplicateur x" + multi;
+        document.getElementById("prix").innerHTML = "Prix du multiplicateur de click  : " + 5 * multi;
+        document.getElementById("clicker").innerHTML = score;
     }
     
     else {
