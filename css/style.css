@@ -2,3 +2,26 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+/*====================================*/
+/*===============BASE===========)=====*/
+/*====================================*/
+
+body {
+    background-image: url(../elements/img/fond_body.jpeg);
+    background-size: cover;
+}
+
+p {
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+section {
+    margin-top: 75px;
+}
+
+img:active {
+    width: 375px;
+    height: 338px;
+}
