@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 
+
 /*====================================*/
 /*===============BASE===========)=====*/
 /*====================================*/
@@ -10,18 +11,32 @@
 body {
     background-image: url(../elements/img/fond_body.jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 p {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     font-size: 30px;
+    color: deeppink;
 }
 
 section {
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 img:active {
     width: 375px;
     height: 338px;
+}
+
+button {
+    background-color: lightblue !important;
+    border: 0px !important;
+    color: steelblue!important;
+}
+
+button p {
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
