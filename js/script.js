@@ -43,9 +43,11 @@ function clicker() {
     }
 }*/
 
+
+
+
 var score = 0;
 var multi = 1;
-//var auto = setInterval (function () {autoclick();}, 10);
 
 /*fonction +1 en cliquant sur le cookie.
 Cette fonction permet que mon poney prenne en compte
@@ -76,13 +78,3 @@ function incrementer() {
         alert("Vous êtes en état de pauvreter, arrêtez de depenser tous vos poneys !");
     }
 }
-
-/*function autoclick() {
-    if (score >= 10) {
-        auto ++;
-    }
-
-    else {
-        auto = 0;
-    }
-}*/
