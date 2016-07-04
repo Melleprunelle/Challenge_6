@@ -65,12 +65,12 @@ si j'ai assez pour me le payer.
 Soit 1x1 = 2 / 2 x 2 = 4 / 4 x 4 / etc*/
 
 function incrementer() {
-    var prix = 5 * multi;
+    var prix = 50 * multi;
     if (score >= prix) {
         multi = multi * 2;
         score = score - prix;
         document.getElementById("multiplicateur").innerHTML = "Multiplicateur x" + multi;
-        document.getElementById("prix").innerHTML = "Prix du multiplicateur de click  : " + 5 * multi;
+        document.getElementById("prix").innerHTML = "Prix du multiplicateur de click  : " + 50 * multi;
         document.getElementById("score").innerHTML = score;
     }
     
