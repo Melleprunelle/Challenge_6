@@ -56,6 +56,9 @@ le résultat de mon multiplicateur quand je l'ai payé.*/
 function clicker() {
     score = score + multi;
     document.getElementById("score").innerHTML = score;
+    if (score == 200){
+        setInterval(clicker, 1000);
+    }
 }
 
 /*fonction +1 en cliquant sur le multiplicateur.
@@ -75,6 +78,6 @@ function incrementer() {
     }
     
     else {
-        alert("Vous êtes en état de pauvreter, arrêtez de depenser tous vos poneys !");
+        alert("Vous êtes en état de pauvreté, arrêtez de depenser tous vos poneys !");
     }
 }
